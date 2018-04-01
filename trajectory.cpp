@@ -12,7 +12,7 @@ state motion(state temp, float velocity, float omega)
     curent.vel = velocity;
     curent.omega = omega;
 
-    return temp;
+    return current;
 }
 
 vector< state > calc_trajectory (state init, float velocity, float omega)
