@@ -10,3 +10,12 @@ There are various parameters, which are suitable for different robots and surrou
 
 This package is in development status and bugs and bug fixes are welcome.
 
+## Running the package
+
+Clone the repo into your catkin workspace: ` git clone https://github.com/TheLethalCode/DWAPlanner.git` 
+
+Catkin_make your workspace: ` catkin_make`
+
+Then ros launch the node: ` roslaunch DWA dwa_launch.launch`
+
+Now run a bag file or run the node in your robot and get the path in *cmd_vel* topic.
